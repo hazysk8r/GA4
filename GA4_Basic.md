@@ -134,3 +134,9 @@
 1. Google Tag Manager 활용
 2. Website 코드에 수동으로 Tag 추가
 3. Website Builder에 MeasurementID 혹은 Google tag 제공
+
+### APP과 GA4 연결
+**목표**: APP와 GA4를 연결하기
+
+**단계**
+1. OS에 상관없이 App data stream이 Firebase SDK로 APP과 GA4 연결
