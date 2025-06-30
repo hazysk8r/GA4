@@ -48,7 +48,7 @@
 
 ## 🖥️ 2단계: GA4 데모 계정
 
-### 2.2 인터페이스
+### 2.1 인터페이스
 **왼쪽 메뉴 구조**
 ```markdown
 📊 GA4 메뉴 구조
@@ -62,7 +62,7 @@
 └── ⚙️ 구성: 설정 및 관리
 ```
 
-### 2.3 기본 리포트 보기
+### 2.2 기본 리포트 보기
 **실시간 리포트 확인**
 1. 왼쪽 메뉴 → "보고서" → "실시간" 클릭
 2. 현재 사이트에 있는 사용자 수 확인
@@ -119,3 +119,18 @@
 1. "보고서" → "참여도" → "기술" 클릭
 2. 데스크톱 vs 모바일 사용자 비율 확인
 3. 각 기기별 참여도 차이 비교
+
+## 번외
+
+### Web과 GA4 연결
+**목표**: Website와 GA4를 연결하기
+
+**단계**
+1. Web data stream 생성하기
+2. Web data stream이 새로운 measurementID와 tag를 생성
+3. Website의 모든 페이지에 Google Tag 추가
+
+**Google Tag 추가방식**
+1. Google Tag Manager 활용
+2. Website 코드에 수동으로 Tag 추가
+3. Website Builder에 MeasurementID 혹은 Google tag 제공
