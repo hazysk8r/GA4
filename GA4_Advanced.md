@@ -1,4 +1,4 @@
-# GA4 Detailed Study
+# GA4 Explore Study
 
 ## 🎯 학습 목표
 - Google Analytics 4 Explore 부분 확인하기
