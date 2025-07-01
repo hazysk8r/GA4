@@ -128,7 +128,7 @@ Segment 이름: "Mobile Cart Abandoners"
 - Likely 28-day churning users: 28일 내 이탈 확률 높은 사용자
 
 🎯 Revenue Prediction (수익 예측):
-- Likely high LTV users: 생애 가치가 높을 것으로 예상되는 사용자
+- Likely high LTV users: LTV가 높을 것으로 예상되는 사용자
 ```
 
 #### 실무 활용 시나리오
