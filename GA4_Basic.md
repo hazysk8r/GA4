@@ -140,3 +140,13 @@
 
 **단계**
 1. OS에 상관없이 App data stream이 Firebase SDK로 APP과 GA4 연결
+
+## Dimensions & Metrics
+
+**목표**: Dimensions와 Metrics 구분
+
+**Dimensions란?**
+1. Who, What, Where("누가", "무엇을", "어디에서")
+
+**Metrics란?**
+1. How Many("얼마나 많이")
