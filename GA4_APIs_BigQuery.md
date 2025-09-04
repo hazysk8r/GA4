@@ -1,6 +1,6 @@
 # GA4 APIs와 BigQuery 활용
 
-## 📋 개요
+## 개요
 
 GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위한 여러 API들을 제공합니다. 이를 통해 맞춤형 대시보드, 자동화된 리포팅, 고급 데이터 분석이 가능해집니다.
 
@@ -15,9 +15,9 @@ GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위�
 
 ---
 
-## 🚀 Google Analytics APIs 종류별 활용 사례
+## Google Analytics APIs 종류별 활용 사례
 
-### 1. 📊 Google Analytics Data API
+### 1. Google Analytics Data API
 
 #### 핵심 기능
 ```markdown
@@ -77,7 +77,7 @@ GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위�
 "특정 캠페인 CPA 급등 → 자동 예산 조정 제안"
 ```
 
-### 2. ⚙️ Google Analytics Admin API
+### 2. Google Analytics Admin API
 
 #### 핵심 기능
 ```markdown
@@ -140,7 +140,7 @@ GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위�
 - 베스트 프랙티스 자동 적용
 ```
 
-### 3. 📡 Measurement Protocol
+### 3. Measurement Protocol
 
 #### 핵심 기능
 ```markdown
@@ -213,7 +213,7 @@ GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위�
 
 ---
 
-## 🗄️ BigQuery 개요 및 활용
+## BigQuery 개요 및 활용
 
 ### BigQuery란?
 ```markdown
@@ -257,7 +257,7 @@ GA4는 웹 인터페이스를 넘어서 **Programmtic 데이터 접근**을 위�
 
 ---
 
-## ⚖️ GA4 Data API vs BigQuery 선택 가이드
+## GA4 Data API vs BigQuery 선택 가이드
 
 ### 비교 매트릭스
 ```markdown
