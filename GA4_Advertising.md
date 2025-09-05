@@ -18,9 +18,9 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 
 ---
 
-## 📊 6가지 핵심 리포트
+## 6가지 핵심 리포트
 
-### 1. 🎯 Advertising Snapshot (광고 스냅샷)
+### 1. Advertising Snapshot (광고 스냅샷)
 
 **한눈에 볼 수 있는 광고 성과 대시보드**
 
@@ -49,7 +49,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 → 성과 양호, 현재 전략 유지
 ```
 
-### 2. 📈 Conversion Performance Report (전환 성과 리포트)
+### 2. Conversion Performance Report (전환 성과 리포트)
 
 **채널별/캠페인별 상세 전환 분석**
 
@@ -76,11 +76,11 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 - YouTube Ads: 전환율 0.9%, CPA $85
 - Display: 전환율 0.6%, CPA $120
 
-💡 인사이트: Google Search가 가장 효율적
-🎯 액션: Google Search 예산 20% 증액
+- 인사이트: Google Search가 가장 효율적
+- 액션: Google Search 예산 20% 증액
 ```
 
-### 3. 🛣️ Attribution Paths Report (어트리뷰션 경로 리포트)
+### 3. Attribution Paths Report (어트리뷰션 경로 리포트)
 
 **고객이 전환하기까지 거친 모든 터치포인트 분석**
 
@@ -114,7 +114,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 - 브랜드 인지 후 평균 구매 결정 기간: 10일
 ```
 
-### 4. 🔄 Attribution Models Report (어트리뷰션 모델 리포트)
+### 4. Attribution Models Report (어트리뷰션 모델 리포트)
 
 **다양한 어트리뷰션 모델 비교 분석**
 
@@ -145,7 +145,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 - 예산 재배분으로 15% ROI 개선 가능
 ```
 
-### 5. 📅 Planning Reports (계획 리포트)
+### 5. Planning Reports (계획 리포트)
 
 **향후 광고 전략 수립을 위한 예측 및 계획 도구**
 
@@ -165,7 +165,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 
 **계획 수립 예시:**
 ```markdown
-🎯 Q4 크리스마스 시즌 계획:
+- Q4 크리스마스 시즌 계획:
 목표: 매출 50% 증가
 
 예산 배분 계획:
@@ -180,7 +180,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 - 신규 고객 비중 30% 증가
 ```
 
-### 6. 📰 Publisher Ads Report (퍼블리셔 광고 리포트)
+### 6. Publisher Ads Report (퍼블리셔 광고 리포트)
 
 **AdSense 등 게시자 광고 수익 분석 (웹사이트 운영자용)**
 
@@ -213,7 +213,7 @@ GA4의 **Advertising Section**은 다양한 광고 플랫폼의 성과를 통합
 
 ---
 
-## 🚀 실무 활용 워크플로우
+## 실무 활용 워크플로우
 
 ### 일일 모니터링 루틴
 ```markdown
