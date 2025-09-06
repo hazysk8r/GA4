@@ -152,19 +152,19 @@
 - How Many("얼마나 많이")
 
 ### GA4와 Google Ads연결
-**목표**: Google Ads와 GA4를 연결하기 → 광고를 보고 클릭한 소비자가 실제 운영되는 사이트 혹은 앱에서 무엇을 했는지, 그리고 그 정보를 바탕으로 광고방식의 최적화를 이룰 수 있음.
+**목표**: Google Ads와 GA4를 연결하기 → 광고를 보고 클릭한 소비자가 실제 운영되는 사이트 혹은 앱에서 무엇을 했는지, 그리고 그 정보를 바탕으로 광고방식의 최적화를 이룰 수 있음
 
 **단계**
-1. GA4의 Admin에서 Product links를 찾음.
-2. Google Ads links 선택.
-3. 파란색 Link button 선택.
-4. 연결하길 원하는 Google Ads account 선택.
+1. GA4의 Admin에서 Product links를 찾음
+2. Google Ads links 선택
+3. 파란색 Link button 선택
+4. 연결하길 원하는 Google Ads account 선택
 
 **GA4와 Google Ads연결의 유용성**
-1. 사용자의 lifecycle을 확인하며, 사용자들이 마케팅수단(광고 클릭 등)에 대해 상호작용하는 방식을 확인할 수 있음.
-   - 광고와 상호작용하는 고객들을 위한 사용자 경험을 최적화할 수 있음.
-2. GA4 내 특정 사용자 행동방식에 기반을 둔 Highly Targeted Audiences 생성가능.
-   - 이를 통해 광고 캠페인을 최적화하고 전환율을 증가시킬 수 있음.
+1. 사용자의 lifecycle을 확인하며, 사용자들이 마케팅수단(광고 클릭 등)에 대해 상호작용하는 방식을 확인할 수 있음
+   - 광고와 상호작용하는 고객들을 위한 사용자 경험을 최적화할 수 있음
+2. GA4 내 특정 사용자 행동방식에 기반을 둔 Highly Targeted Audiences 생성가능
+   - 이를 통해 광고 캠페인을 최적화하고 전환율을 증가시킬 수 있음
 3. Cross Channel 기여도 분석 및 사용자 행동 측정
-   - 각 채널이 사용자 행동과 사이트 내 key events에 미치는 역할을 측정할 수 있음. 그로 인한 ROI 개선 효과.
+   - 각 채널이 사용자 행동과 사이트 내 key events에 미치는 역할을 측정할 수 있음. 그로 인한 ROI 개선 효과
 ---
