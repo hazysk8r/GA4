@@ -1,19 +1,19 @@
 # GA4 Segments와 Audiences
 
-## 📋 개요
+## 개요
 
 GA4에서 **Segments**와 **Audiences**는 사용자 데이터를 의미 있는 그룹으로 나누어 분석하고 활용하는 데 사용되는 도구.
 
 ---
 
-## 📊 Segments (세그먼트)
+## Segments (세그먼트)
 
 ### 정의 및 기본 개념
 
 **Segments**는 특정 조건을 만족하는 사용자나 세션을 그룹으로 묶어 **과거 데이터를 분석**하는 도구. 주로 "왜 이런 일이 일어났나?"를 이해하기 위한 분석에 사용됨.
 
 ```markdown
-🔍 Segments 활용 예시:
+Segments 활용 예시:
 "사용자 중 특정 금액 이상을 사용하거나 여러 번 구매를 한 사용자들의 행동패턴을 확인하여 마케팅 전략을 구상하는 데 도움"
 "장바구니에 담기만 하고 구매하지 않는 사용자와 실구매까지 한 사용자 간 비교하여 구매 Funnel을 재구성하는 데 도움"
 "각기 다른 Audiences에게 Website의 어떤 부분이 잘 작용하는 지 확인하는 데 도움"
@@ -23,7 +23,7 @@ GA4에서 **Segments**와 **Audiences**는 사용자 데이터를 의미 있는 
 
 #### 기본 설정 단계
 ```markdown
-📝 Segments 생성 과정:
+Segments 생성 과정:
 1. 탐색(Exploration) 메뉴 접근
 2. "세그먼트" 섹션에서 "+" 클릭
 3. 세그먼트 유형 선택:
@@ -37,7 +37,7 @@ GA4에서 **Segments**와 **Audiences**는 사용자 데이터를 의미 있는 
 
 ##### 고가치 고객 Segment
 ```markdown
-🎯 조건 설정:
+조건 설정:
 Segment 이름: "High Value Customers"
 조건:
 - Event: purchase
@@ -49,7 +49,7 @@ Segment 이름: "High Value Customers"
 
 ##### 이탈 위험 고객 Segment
 ```markdown
-⚠️ 조건 설정:
+조건 설정:
 Segment 이름: "At Risk Customers"
 조건:
 - User Property: last_engagement_time
@@ -61,7 +61,7 @@ Segment 이름: "At Risk Customers"
 
 ##### 모바일 쇼핑 중단자 Segment
 ```markdown
-📱 조건 설정:
+조건 설정:
 Segment 이름: "Mobile Cart Abandoners"
 조건:
 - Device Category: mobile
@@ -74,14 +74,14 @@ Segment 이름: "Mobile Cart Abandoners"
 
 ---
 
-## 👥 Audiences (오디언스)
+## Audiences (오디언스)
 
 ### 정의 및 기본 개념
 
 **Audiences**는 특정 조건을 만족하는 사용자 그룹을 정의하여 **미래의 마케팅 액션**에 활용하는 도구. 광고 타겟팅, 개인화, 리마케팅 등에 사용됨.
 
 ```markdown
-🎯 Audiences 활용 예시:
+Audiences 활용 예시:
 "구매 경험이 있는 사용자에게 신제품 광고 노출"
 "장바구니 중단자에게 할인 쿠폰 리마케팅"
 "고가치 고객에게 VIP 혜택 안내"
@@ -91,21 +91,21 @@ Segment 이름: "Mobile Cart Abandoners"
 
 #### 시스템 자동 생성
 ```markdown
-🔧 기본 Audiences:
+기본 Audiences:
 - All Users (모든 사용자)
 - Purchasers (구매자) - 지난 30일간 구매한 사용자
 - Non-purchasers (비구매자) - 지난 30일간 구매하지 않은 사용자
 
-📊 예측 Audiences (AI 기반):
+예측 Audiences (AI 기반):
 - Likely 7-day purchasers (7일 내 구매 가능성 높은 사용자)
 - Likely 7-day churning users (7일 내 이탈 가능성 높은 사용자)
 ```
 
-### 🤖 Predictive Audiences
+### Predictive Audiences
 
 #### 작동 원리
 ```markdown
-🧠 Google AI 모델 활용:
+Google AI 모델 활용:
 - 수천 개의 신호를 실시간 분석
 - 사용자 행동 패턴, 세션 데이터, 이벤트 시퀀스 학습
 - 머신러닝으로 미래 행동 예측
@@ -119,21 +119,21 @@ Segment 이름: "Mobile Cart Abandoners"
 
 #### 사용 가능한 예측 유형
 ```markdown
-💰 Purchase Prediction (구매 예측):
+Purchase Prediction (구매 예측):
 - Likely 7-day purchasers: 7일 내 구매 확률 높은 사용자
 - Likely 28-day purchasers: 28일 내 구매 확률 높은 사용자
 
-🔄 Churn Prediction (이탈 예측):
+Churn Prediction (이탈 예측):
 - Likely 7-day churning users: 7일 내 이탈 확률 높은 사용자
 - Likely 28-day churning users: 28일 내 이탈 확률 높은 사용자
 
-🎯 Revenue Prediction (수익 예측):
+Revenue Prediction (수익 예측):
 - Likely high LTV users: LTV가 높을 것으로 예상되는 사용자
 ```
 
 #### 실무 활용 시나리오
 ```markdown
-🎯 구매 예측 활용:
+구매 예측 활용:
 시나리오: "7일 내 구매 가능성 높은 사용자"
 마케팅 액션:
 - Google Ads에서 높은 입찰가 설정
@@ -143,7 +143,7 @@ Segment 이름: "Mobile Cart Abandoners"
 
 예상 결과: 일반 타겟팅 대비 전환율 2-5배 향상
 
-🚨 이탈 예측 활용:
+이탈 예측 활용:
 시나리오: "7일 내 이탈 가능성 높은 사용자"
 마케팅 액션:
 - 특별 할인 쿠폰 제공
@@ -158,7 +158,7 @@ Segment 이름: "Mobile Cart Abandoners"
 
 #### 설정 방법
 ```markdown
-📝 Audiences 생성 과정:
+Audiences 생성 과정:
 1. 관리 → 구성 → Audiences
 2. "새 오디언스" 클릭
 3. "커스텀 오디언스" 선택
@@ -174,7 +174,7 @@ Segment 이름: "Mobile Cart Abandoners"
 
 ##### 이커머스 Audiences
 ```markdown
-🛍️ 온라인 쇼핑몰:
+온라인 쇼핑몰:
 
 1. VIP 고객
 조건: 지난 90일간 $1000 이상 구매
@@ -195,7 +195,7 @@ Segment 이름: "Mobile Cart Abandoners"
 
 ##### SaaS 비즈니스 Audiences
 ```markdown
-💼 SaaS 서비스:
+SaaS 서비스:
 
 1. 체험판 활성 사용자
 조건: 체험판 가입 후 핵심 기능 3회 이상 사용
@@ -216,7 +216,7 @@ Segment 이름: "Mobile Cart Abandoners"
 
 ##### 콘텐츠/미디어 Audiences
 ```markdown
-📺 미디어 사이트:
+미디어 사이트:
 
 1. 충성 독자
 조건: 월 10편 이상 기사 읽음, 3개월 연속
@@ -237,22 +237,22 @@ Segment 이름: "Mobile Cart Abandoners"
 
 #### Segments를 사용해야 할 때
 ```markdown
-📊 분석 목적:
+분석 목적:
 ✅ "지난 분기 모바일 사용자의 구매 패턴은?"
 ✅ "Black Friday 캠페인 효과를 기기별로 비교하려면?"
 ✅ "신규 vs 재방문 사용자의 행동 차이는?"
 
-🎯 핵심: 과거 데이터로 "왜?"를 이해하고 싶을 때
+핵심: 과거 데이터로 "왜?"를 이해하고 싶을 때
 ```
 
 #### Audiences를 사용해야 할 때
 ```markdown
-🎯 액션 목적:
+액션 목적:
 ✅ "구매 경험자에게 신제품 광고를 보여주려면?"
 ✅ "장바구니 중단자에게 리마케팅 하려면?"
 ✅ "VIP 고객에게 개인화된 경험을 제공하려면?"
 
-🎯 핵심: 특정 그룹에게 "무언가를 하고" 싶을 때
+핵심: 특정 그룹에게 "무언가를 하고" 싶을 때
 ```
 
 ---
